@@ -1,7 +1,54 @@
-#home {
-  background-color: #D23333;
+#landing-page {
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url("../images/jemegratte-bg-landing.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  p {
+    margin-top: 1.5em;
+    font-size: 22px;
+  }
+  a {
+    color: #495057;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #landing-page-text{
+    padding : 20px;
+    margin: 20px;
+    color: rgb(250, 240, 225);
+  }
+
+}
+
+#landing-page2 {
+  background-color: rgb(250, 240, 225);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  p {
+    margin-top: 1.5em;
+    font-size: 18px;
+  }
+  a {
+    color: #495057;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #landing-page-text2{
+    padding : 20px;
+    margin: 20px;
+    color: rgb(8, 34, 53);
+  }
+
+}
+
+#call-to-action{
+  background-color: rgb(8, 34, 53);
   color: black;
-  height: 100vh;
+
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -10,8 +57,12 @@
     margin-top: 1.5em;
   }
   a {
-    color: rgba(100,0,0,0.4);
+    color: #495057;
     font-weight: bold;
     font-size: 16px;
+  }
+  #landing-page-call-to-action{
+    padding : 20px;
+    color: rgb(250, 240, 225);
   }
 }
